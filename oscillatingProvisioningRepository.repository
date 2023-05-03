@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ASCII"?>
+<repository:Repository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:seff="http://palladiosimulator.org/PalladioComponentModel/SEFF/5.2" id="_KIGQsOmHEe25Y_c-dRW23A" entityName="New Repository">
+  <components__Repository xsi:type="repository:BasicComponent" id="_OM_CcOmHEe25Y_c-dRW23A" entityName="BasicComponent1">
+    <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_RhHssOmHEe25Y_c-dRW23A" entityName="BasicComponent1.Interface1.OperationProvidedRole1" providedInterface__OperationProvidedRole="_N9f08OmHEe25Y_c-dRW23A"/>
+    <serviceEffectSpecifications__BasicComponent xsi:type="seff:ResourceDemandingSEFF" id="_RhijcOmHEe25Y_c-dRW23A" describedService__SEFF="_Ox67gOmHEe25Y_c-dRW23A">
+      <steps_Behaviour xsi:type="seff:StartAction" id="_RhmN0OmHEe25Y_c-dRW23A" successor_AbstractAction="_WD7wkOmHEe25Y_c-dRW23A"/>
+      <steps_Behaviour xsi:type="seff:StopAction" id="_Rhnb8OmHEe25Y_c-dRW23A" predecessor_AbstractAction="_WD7wkOmHEe25Y_c-dRW23A"/>
+      <steps_Behaviour xsi:type="seff:InternalAction" id="_WD7wkOmHEe25Y_c-dRW23A" entityName="InternalAction1" predecessor_AbstractAction="_RhmN0OmHEe25Y_c-dRW23A" successor_AbstractAction="_Rhnb8OmHEe25Y_c-dRW23A">
+        <resourceDemand_Action>
+          <specification_ParametericResourceDemand specification="100"/>
+          <requiredResource_ParametricResourceDemand href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
+        </resourceDemand_Action>
+      </steps_Behaviour>
+    </serviceEffectSpecifications__BasicComponent>
+  </components__Repository>
+  <interfaces__Repository xsi:type="repository:OperationInterface" id="_N9f08OmHEe25Y_c-dRW23A" entityName="Interface1">
+    <signatures__OperationInterface id="_Ox67gOmHEe25Y_c-dRW23A" entityName="processRequest"/>
+  </interfaces__Repository>
+</repository:Repository>

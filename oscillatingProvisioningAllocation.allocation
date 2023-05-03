@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_oZ-60OmHEe25Y_c-dRW23A" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="oscillatingProvisioningResourceEnvironment.resourceenvironment#/"/>
+  <system_Allocation href="oscillatingProvisioningAssembly.system#_a79PcOmHEe25Y_c-dRW23A"/>
+  <allocationContexts_Allocation id="_ve0PgOmHEe25Y_c-dRW23A" entityName="Allocation_Assembly_BasicComponent1">
+    <resourceContainer_AllocationContext href="oscillatingProvisioningResourceEnvironment.resourceenvironment#_lHaW0OmHEe25Y_c-dRW23A"/>
+    <assemblyContext_AllocationContext href="oscillatingProvisioningAssembly.system#_eeuLkOmHEe25Y_c-dRW23A"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>
